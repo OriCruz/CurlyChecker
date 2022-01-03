@@ -23,7 +23,7 @@ public class CurlyCheckerIO {
         
          //Reads the file
         System.out.println("----Test File----");
-        file = getArrayAndLastElement(s3);
+        file = getArrayAndLastElement(s3);//Insert name of the file you want to read here. 
         bChecker(file,stack );
         
          //Check if the Stack is balanced 
